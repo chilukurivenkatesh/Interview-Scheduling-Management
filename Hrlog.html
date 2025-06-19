@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script src="script.js"></script> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.btn {
+  background-color: #ddd;
+  border: 2px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  border-radius: 15px 50px; 
+}
+.btnn {
+  background-color:chartreuse;
+  border: 2px;
+  color:black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  border-radius: 15px 50px; 
+}
+.btnn:hover {
+  background-color:blue;
+  color: blanchedalmond;
+  }
+a {
+  color: black;
+  text-decoration:none
+}
+.btn:hover {
+  background-color: #90EE90;
+  color:black;
+  }
+
+body {
+  font-family: Arial;
+  color: black;
+}
+
+.split {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #6CACFF;
+}
+
+.right {
+  right: 0;
+  background-color:#F0F8FF;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 550px;
+  
+}
+.regis
+{
+    color: darkslateblue;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="split right">
+  <div class="centered">
+   <div class="jumbotron text-center">
+
+  <div>
+    
+    <strong><i><h1>Hr  Login Page</h1></i></strong>
+  <div class="column">
+
+    
+  </div>
+</div>
+<div class="container"> 
+  <div class="row">
+    <div class="col-md-12 text-">
+      <h3>Here We go !</h3>
+    </div>
+  </div>
+  <div class="row">
+    <form action="Hrlog" method="post">
+        <strong>Hr ID:</strong><input class="btn" type="text" name="id" placeholder="Enter Id" /><br/>
+        <strong>Password:</strong><input class="btn" type="password" name="pass"  placeholder="********"/><br/>
+        <input class="btnn" type="submit" value="login" />
+        </form>
+  </div>
+  <br>
+  <br>
+  
+  <div>
+      <i>If not Register yet?<a href="Hrreg.html" class="regis" ><strong>Register Now</strong></a></i>
+  </div>
+</div>
+
+
+
+</body>
+</html>
+ 
